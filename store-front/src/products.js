@@ -30,7 +30,7 @@ const products = [
         description:'These are gorgeous hanging blue earrings made of the agate stone.',
         brand:'Rings & Things',
         category:'Earrings',
-        price:60.00,
+        price:60.99,
         countInStock:10,
         rating:5.0,
         numReviews:6
@@ -54,7 +54,7 @@ const products = [
         description:'Super cute and subtle diamond encrusted daisy ring',
         brand:'Rings & Things',
         category:'Rings',
-        price:30.00,
+        price:30.99,
         countInStock:10,
         rating:4.5,
         numReviews:10
@@ -66,9 +66,9 @@ const products = [
         description:'Beautiful Opal Necklace',
         brand:'Bracey-lets',
         category:'Necklaces',
-        price:70.00,
+        price:70.99,
         countInStock:10,
-        rating:4.5,
+        rating:3.5,
         numReviews:10
     }
 ]
