@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import {Row,Col,Image,ListGroup,Card,Button} from 'react-bootstrap'
 import Rating from '../components/Rating'
-import products from '../products'
+import axios from 'axios'
 import * as Icon from 'react-bootstrap-icons';
 const ProductScreen = ( { match }) => {
-    const product = products.find(p => p._id === match.params.id)
+    const [product,setProduct] = useState({})
+    useEffect(() => {
+        const fetchProduct = async () => {
+            const { data } = await axios.get(`/projewels/products/${match.params.id}`)
+            setProduct(data)
+        }
+
+        fetchProduct()
+    },{})
     return (
         <div>
             <Link className="btn btn-primary my-3" to="/"><Icon.CaretLeft/> Go Back</Link>
