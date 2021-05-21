@@ -4,7 +4,7 @@ import { Container, Row, Col,Navbar,Nav } from 'react-bootstrap'
 import * as Icon from 'react-bootstrap-icons';
 const Header = () => {
     return (
-      <Navbar bg="dark"  variant="dark" expand="lg" >
+      <Navbar bg="primary"  variant="dark" expand="lg" >
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>ProJewels</Navbar.Brand>

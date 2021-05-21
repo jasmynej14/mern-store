@@ -19,7 +19,7 @@ const products = [
         brand:'Bracey-Lets',
         category:'Bracelets',
         price:25.99,
-        countInStock:5,
+        countInStock:0,
         rating:4.0,
         numReviews:3
     },
