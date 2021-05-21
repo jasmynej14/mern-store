@@ -1,0 +1,23 @@
+{
+  "name": "merncommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node store-back/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasmynej14/mern-store.git"
+  },
+  "author": "Jasmyne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasmynej14/mern-store/issues"
+  },
+  "homepage": "https://github.com/jasmynej14/mern-store#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
