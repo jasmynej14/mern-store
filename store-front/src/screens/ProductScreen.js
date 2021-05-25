@@ -13,7 +13,7 @@ const ProductScreen = ( { match }) => {
         }
 
         fetchProduct()
-    },{})
+    },[match])
     return (
         <div>
             <Link className="btn btn-primary my-3" to="/"><Icon.CaretLeft/> Go Back</Link>
