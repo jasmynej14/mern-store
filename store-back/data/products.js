@@ -1,6 +1,6 @@
 const products = [
     {
-        _id: '1',
+        
         name:'Butterfly Necklace',
         image:'/images/butterfly_necklace.jpeg',
         description:'This is a beautiful butterfly necklace made out of real 24k gold',
@@ -12,7 +12,7 @@ const products = [
         numReviews:10
     },
     {
-        _id: '2',
+        
         name:'Beaded Bracelet',
         image:'/images/bead_bracelet.jpeg',
         description:'A blue beaded bracelet perfect for a gift',
@@ -24,7 +24,7 @@ const products = [
         numReviews:3
     },
     {
-        _id: '3',
+        
         name:'Blue Lace Agate Earrings',
         image:'/images/blue_lace_agate.jpeg',
         description:'These are gorgeous hanging blue earrings made of the agate stone.',
@@ -36,7 +36,7 @@ const products = [
         numReviews:6
     },
     {
-        _id: '4',
+        
         name:'Charm Bracelet',
         image:'/images/charm_bracelet.jpeg',
         description:'A charming charm bracelet',
@@ -48,7 +48,7 @@ const products = [
         numReviews:10
     },
     {
-        _id: '5',
+        
         name:'Daisy Ring',
         image:'/images/daisy_ring.jpeg',
         description:'Super cute and subtle diamond encrusted daisy ring',
@@ -60,7 +60,7 @@ const products = [
         numReviews:10
     },
     {
-        _id: '6',
+        
         name:'Opal Necklace',
         image:'/images/opal_necklace.jpeg',
         description:'Beautiful Opal Necklace',
